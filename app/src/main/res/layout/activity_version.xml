@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bluetext"
+    android:layout_height="match_parent"
+    tools:context=".VersionActivity">
+    <RelativeLayout
+        android:background="@drawable/backgron"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_alignParentTop="true"
+            android:background="@color/birumud"
+            android:id="@+id/txt22"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:text="Profil Dosen"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/_23sdp"
+            android:layout_below="@id/txt22"
+            android:textColor="@color/white"
+            android:id="@+id/txtpro"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:text="Lilik Chaerul Yuswono, M.Pd."
+            android:layout_height="match_parent" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_below="@id/txtpro"
+            android:src="@drawable/dosen"
+            android:id="@+id/imgpro"/>
+        <LinearLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@color/birutua"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:id="@+id/linear"
+            android:layout_below="@id/imgpro"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_height="fill_parent">
+
+
+            <ImageView
+                android:id="@+id/hp"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/hpp" />
+
+
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/wa"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/_70sdp"
+                android:src="@drawable/waa" />
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/inst"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:src="@drawable/emm" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IDENTITAS"
+            android:textStyle="bold"
+            android:id="@+id/txtid"
+            android:textSize="@dimen/_20sdp"
+            android:layout_below="@id/linear"/>
+        <LinearLayout
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_below="@id/txtid"
+            android:id="@+id/ln4"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:clipToPadding="false"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:text="NIP                      : "/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_15sdp"
+                android:text="195702171983031002"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_below="@id/ln4"
+            android:id="@+id/ln5"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:clipToPadding="false"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:text="Jenis Kelamin   : "/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_15sdp"
+                android:text="Laki - laki"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_below="@id/ln5"
+            android:id="@+id/ln6"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:clipToPadding="false"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:text="Agama               : "/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_15sdp"
+                android:text="Islam"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_below="@id/ln6"
+            android:id="@+id/ln7"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:clipToPadding="false"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:text="Keahlian             : "/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_15sdp"
+                android:text="Teknologi Motor Bensin"/>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RIWAYAT PENDIDIKAN"
+            android:textStyle="bold"
+            android:id="@+id/txtrp"
+            android:textSize="@dimen/_20sdp"
+            android:layout_below="@id/ln7"/>
+        <ImageView
+            android:id="@+id/imgrp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_below="@id/txtrp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/riwayat"/>
+        <TextView
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT KERJA"
+            android:textStyle="bold"
+            android:id="@+id/txtuk"
+            android:textSize="@dimen/_20sdp"
+            android:layout_below="@id/imgrp"/>
+        <LinearLayout
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_below="@id/txtuk"
+            android:id="@+id/ln8"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:clipToPadding="false"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:text="Jurusan             : "/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_15sdp"
+                android:text="Pendidikan Teknik Otomotif"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_below="@id/ln8"
+            android:id="@+id/ln9"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:clipToPadding="false"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:text="Golongan          : "/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_15sdp"
+                android:text="IV/A"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_below="@id/ln9"
+            android:id="@+id/ln10"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:clipToPadding="false"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:text="Jabatan             : "/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_15sdp"
+                android:text="Lektor Kepala"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

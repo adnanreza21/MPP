@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Book34EmpatActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:id="@+id/txt11"
+            android:gravity="center"
+            android:background="@color/birumud"
+            android:text="Materi Kompetensi Dasar 3.4 "
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/grey"
+            android:gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:text="D. PERALATAN YANG DIGUNAKAN SETELAH APLIKASI PRIMER DAN SURFACER"
+            android:textStyle="bold"
+            android:textSize="@dimen/_18sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="1. Amplas"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Amplas berfungsi untuk mengikis/menghaluskan permukaan benda kerja dengan cara digosokkan. Halus dan kasarnya kertas amplas ditunjukkan oleh angka yang tercantum dibalik kertas amplas  tersebut. Semakin besar angka yang tertulis menunjukkan semakin halus dan rapat susunan pasir amplas tersebut, contoh amplas dapat dilihat seperti gambar 4. Pada pekerjaan perbaikan dan penyelesaian bodi otomotif, amplas digunakan untuk menggosok lapisan cat, dempul atau surfacer. Terdapat berbagai macam amplas berdasarkan material, bentuk, serta kekasarannya. Amplas merupakan salah satu jenis material abrasif yang dibuat dengan proses perlekatan (coated abrasive).   Amplas terdiri atas dua bagian yang disatukan, yaitu material abrasif dan material backing. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:src="@drawable/gmbr4" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Material backing yang digunakan pada amplas merupakan bahan leksibel, terbuat dari kertas, kertas tahan air, kain, dan synthetic   fiberglass. Amplas yang menggunakan material backing dari bahan kertas tidak tahan air sehingga hanya dapat digunakan pada pekerjaan pengamplasan kering (dry-sanding). Pemilihan penggunaan amplas dengan material backing dari bahan kertas tahan air, kain, ataupun synthetic fiberglass disesuaikan dengan kekuatan, fleksibilitas, dan kondisi bidang permukaan benda kerja yang akan dikerjakan. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="a. Klasifikasi kekasaran amplas "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Tingkat kekasaran amplas atau disebut dengan grit dinyatakan dalam kode penomoran. Tingkatan nomor grit biasanya dicetak pada bagian belakang material backing amplas. Semakin besar nomor grit, semakin halus partikel abrasifnya. Gambar tabel di bawah ini menunjukan klasifikasi grit amplas terhadap jenis pekerjaan yang sesuai. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:src="@drawable/gmbr5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Sebelum menggunakan amplas, faktor yang sangat penting adalah memilih nomor grit yang berpengaruh pada hasil kerja, dan seberapa lama pekerjaan dilakukan. Sebagai contoh, pemborosan waktu dan tenaga akan terjadi, apabila amplas dengan kekasaran yang halus, misal # 600 digunakan untuk mengupas cat aslinya, apabila top coat diaplikasi setelah mengupas permukaan dengan amplas yang memiliki grit # 60, maka tidak akan diperoleh lapisan akhir yang halus, seberapapun lapisan diaplikasikan, lihat gambar 6 untuk lebih jelasnya."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:src="@drawable/gmbr6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Demikian pula, memilih nomor grit amplas secara bertahap adalah penting. Diagram dibawah ini memperlihatkan contoh aplikasi rangkaian atau tahapan dalam memilih berbagai nomor grit amplas digunakan pada proses pengamplasan."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:src="@drawable/gmbr61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Dalam chart diatas, apa yang akan terjadi apabila grit #120 dilewati ? Dalam praktik, tanda yang ditinggalkan oleh amplas dengan grit #80 tidak dapat    dihilangkan dengan mudah oleh grit #200. Oleh sebab itu, yang penting untuk dilakukan adalah berganti pada grit yang lebih halus secara bertahap, dapat menghilangkan goresan yang ditinggalkan oleh amplas terdahulu. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="2. Blok tangan (Handblock) "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:src="@drawable/gmbr7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Blok tangan merupakan peralatan yang digunakan untuk menempelkan lembaran amplas yang digunakan untuk pengamplasan manual. Terdapat berbagai macam 	bentuk handblock yang penggunaannya disesuaikan dengan bentuk dan area kerja yang akan diamplas, gambar 7 merupakan salalh satu contoh blok tangan bermerek 3M.  "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="3. Sander "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Sander merupakan alat pengamplas mekanis untuk menempelkan       lembaran amplas. Sander digunakan untuk mengamplas lapisan cat, putty atau surfacer. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="a. Klasifikasi penggerak sander "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Menurut sumber tenaga yang digunakan, sander dapat dibagi menjadi dua jenis, yaitu : "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="1) Sander elektrik, sander digerakkan oleh tenaga listrik, gambar 8 dibawah ini merupakan salah satu contoh sander elektrik."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:src="@drawable/gmbr8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="2) Sander pneumatik, sander dioperasikan menggunakan udara bertekanan. Sander pneumatik biasanya digunakan untuk pekerjaan persiapan permukaan pada perbaikan bodi otomotif. Gambar 9 dibawah ini merupakan contoh sander pnumatik."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:src="@drawable/gmbr9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="b. Klasifikasi gerak pad "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Berdasarkan gerakan pemegang amplas (sander pad), sander diklasifikasikan menjadi tiga jenis, yaitu seperti pada gambar 10 dibawah ini : "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:src="@drawable/gmbr10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="1) Sander gerak tunggal (Single action sander)"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Sander pad berputar dengan sumbu yang tetap. Sander gerak tunggal memiliki gaya pengikisan yang Vertical Single Action Sander kuat, sehingga banyak digunakan pada pekerjaan pengupasan cat. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="2) Sander gerak orbital (Orbital action sander)"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/gmbr11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Sander pad bergetar membentuk lingkaran kecil. Gaya pengikisan  yang dihasilkan 	kecil, sehingga sander gerak orbital banyak digunakan untuk membentuk putty. Sander pad dapat dilepas untuk diganti dengan ukuran yang lebih besar/kecil, disesuaikan dengan area yang akan dikerjakan, untuk lebih jelasnya lihat pada gambar 11 sander gerak orbital."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="3) Sander gerak ganda (Dual action sander)"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/gmbr12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Sander pad bergerak membentuk lingkaran kecil, disamping itu juga   berputar pada titik sumbunya. Gerakan sander 	gerak ganda merupakan  kombinasi gerakan sander gerak tunggal dan sander gerak orbital. Gaya pengikisannya medium, sander pad dapat diganti. Pad yang keras digunakan untuk Random Orbital Sander membentuk putty dan meratakan permukaan, sedangkan pad yang lebih lunak digunakan untuk scuffing. Dual Action Sander "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="c. Klasifikasi metode pengamplasan "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Berdasarkan metode pengamplasan maka pengamplasan dapat  diklasifikasikan sebagai berikut: "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="1) Pengamplasan basah adalah suatu metode sanding yang menggunakan air diantara permukaan kerja dan amplas.  Pengamplasan basah menjadi efektif, apabila dilakukan dengan amplas grit #400 atau yang lebih halus, pemilihan grit ini disesuaikan dengan jenis pekerjaan yang akan dilakukan, lihat pada gambar 5, yang mudah tersumbat apabila digunakan dalam pengamplasan kering. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="2) Pengamplasan kering adalah suatu cara yang banyak digunakan, karena mudah penggunaannya, lebih-lebih pada saat membentuk putty dengan amplas kasar."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Untuk membedakan metode amplas basah dan kering lihat pada gambar 13 dibawah ini. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:src="@drawable/gmbr13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="center"
+            android:text="Perbandingan Pengamplasan Bawah Dan Pengamplasan Kering"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/gmbr131"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="4. Air duster gun "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/gmbr14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Digunakan untuk membersihkan permukaan kerja, air duster gun meniupkan udara bertekanan pada permukaan untuk membuang debu cat yang terlepas dan partikel-partikel yang diamplas, sehingga permukaan panel yang akan dikerjakan bersih dari partikel yang membuat goresan dipermukaan, bentuk dari air duster gun dapat dilihat pada gambar 14. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+
+    </LinearLayout>
+</ScrollView>

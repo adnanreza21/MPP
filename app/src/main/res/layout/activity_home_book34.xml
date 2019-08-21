@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bluetext"
+    android:layout_height="match_parent"
+    tools:context=".HomeBook34Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:id="@+id/txt11"
+            android:gravity="center"
+
+            android:background="@color/birumud"
+            android:text="Materi Kompetensi Dasar 3.4 "
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:gravity="left"
+            android:padding="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:background="@drawable/custom_but"
+            android:id="@+id/but1"
+            android:textSize="@dimen/_16sdp"
+            android:textColor="@color/bluetext"
+            android:text="Tujuan persiapan permukaan "
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:gravity="left"
+            android:padding="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:background="@drawable/custom_but"
+            android:id="@+id/but2"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_below="@+id/but1"
+            android:textSize="@dimen/_16sdp"
+            android:textColor="@color/bluetext"
+            android:text="Langkah - langkah persiapan permukaan setelah primer dan surfacer"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:gravity="left"
+            android:padding="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:background="@drawable/custom_but"
+            android:id="@+id/but3"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_below="@+id/but2"
+            android:textSize="@dimen/_16sdp"
+            android:textColor="@color/bluetext"
+            android:text="Bahan - bahan yang digunakan untuk persiapan permukaan setelah penggunaan primer dan surfacer"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:gravity="left"
+            android:padding="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:background="@drawable/custom_but"
+            android:id="@+id/but4"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_below="@+id/but3"
+            android:textSize="@dimen/_16sdp"
+            android:textColor="@color/bluetext"
+            android:text="Peralatan yang digunakan setelah aplikasi primer dan surfacer"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:gravity="left"
+            android:padding="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:background="@drawable/custom_but"
+            android:id="@+id/but5"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_below="@+id/but4"
+            android:textSize="@dimen/_16sdp"
+            android:textColor="@color/bluetext"
+            android:text="Aplikasi persiapan permukaan setelah diberi primer dan surfacer"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</ScrollView>

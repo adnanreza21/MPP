@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Book36LimaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:id="@+id/txt11"
+            android:gravity="center"
+            android:background="@color/birumud"
+            android:text="Materi Kompetensi Dasar 3.6"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/grey"
+            android:gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:text="E. PENGGUNAAN DAN PENYETELAN SPRAYGUN"
+            android:textStyle="bold"
+            android:textSize="@dimen/_18sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="1. Menggunakan spraygun"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gbr13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Agar dapat mengecat dengan mantap tanpa merasa lelah, harus dapat menjaga sikap relaks tanpa memegang bahu, pundak atau lengan yang menahan spraygun. Lihat pada gambar 13 cara memegang sapraygun biasanya spraygun ditahan dengan ibu jari, telunjuk dan kelingking, sedangkan trigger ditarik dengan jari tengah dan jari manis. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="2. Aplikasi penggunaan spray gun "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Setelah melaksanakan pengaturan penyemprotan pada pistol penyemprot cat (spraygun) ada empat hal penting yang harus diperhatikan dalam aplikasi spraygun agar didapatkan hasil akhir yang baik.  "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="a. Jarak pengecatan "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:src="@drawable/gbr14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Jarak pengecatan atau jarak antara spraygun dan area yang dicat untuk masing - masing cat berbeda, tergantung dari proses dan obyek yang akan di cat, lihat pada gambar 14. Apabila spraygun dipegang terlampau dekat dengan permukaan yang dicat, maka akan berakibat jumlah cat yang teraplikasi menjadi banyak dan menghasilkan lapisan yang lebih tebal dan dapat meleleh. Sebaliknya, apabila spraygun dipegang pada jarak yang lebih jauh, volumenya akan berkurang, untuk lebih jelasnya lihat video spraygun setup dan penyetelan spraygun dan aplikasinya. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:src="@drawable/gbr15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Untuk jarak penyemprotan yang tidak teratur akan mengakibatkan hasil pengecatan yang belang - belang dan tidak mengkilap. Jarak ideal ditentukan oleh tipe cat, spraygun, dan metode pengecatan yang digunakan. Jarak spraygun secara umum 15-20 cm, untuk jenis acrylic lacquer : 10 – 20 cm dan enamel: 15 – 25 cm, jika dikira – kira jaraknya adalah satu jengkal jari, lihat pada gambar 15. Demikian pula untuk mendapatkan hasil akhir yang uniform (sama), sangat perlu untuk menjaga jarak secara konsisten, sekalipun pada saat mengecat permukaan yang tidak rata, lihat pada gambar 16."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:src="@drawable/gbr16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="3. Sudut spraygun "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Sudut spraygun itu merupakan orientasi (arah) daripada spraygun dalam hubungannya terhadap permukaan panel. spraygun harus dipegang tegak lurus secara konsisten terhadap permukaan panel, balk pada arah vertical maupun horizontal, lihat pada gambar 17. Apabila tidak demikian, maka hasilnya akan menjadi kurang rata.  "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gbr17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Lapisan akan menjadi lebih tebal di bagian bawah, apabila spraygun dipegang membentuk sudut terhadap permukaan panel, lihat pada gambar 18 dibawah ini."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gbr18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Posisi dimana anda berdiri, juga memegang peran penting dalam menjaga spraygun tetap tegak lurus terhadap permukaan panel. Oleh karena spraygun bergerak dengan bahu anda sebagai titik tumpunya, maka anda harus berdiri sedemikian rupa sehingga bahu tangan anda yang memegang spraygun menghadap bagian tengah panel yang akan dicat. Demikian pula, kaki  anda harus dibuka, sedikit lebih lebar dari lebar bahu anda, dan lutut sedikit dibengkokkan, untuk lebih jelasnya lihat gambar 19 dan video penyetelan spraygun dan aplikasinya."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gbr19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Agar anda tidak menggerakkan hanya lengan anda saja, maka anda harus menggerakkan seluruh badan anda dari satu sisi kesisi yang lain, dengan menggunakan pinggang anda sebagai titik tumpunya "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="4. Kecepatan langkah pengecatan "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gbr20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Kecepatan gerak pistol penyemprot cat (spraygun) hendaknya stabil, baik dengan arah horizontal maupun vertikal, perhatikan pada gambar 20, untuk lebih jelasnya lihat video penyetelan spraygun dan aplikasinya. Jika terlalu lambat, cat akan meleleh, bila terlalu cepat maka hasil pengecatan kurang rata. Jika kecepatannya kurang stabil maka akan diperoleh hasil pengecatan yang tidak rata dan kurang mengkilap. Kecepatan gerak spraygun harus konstan, yang dianjurkan kira-kira 900 – 1200 mm/detik. Untuk memastikan hasil akhir yang balk, adalah penting untuk memperhatikan teknik spraygun yang baik dengan jarak spraygun yang benar, kecepatan langkah yang sesuai dan jumlah keluaran cat yang tepat. Ketidak keseimbangan dari kombinasi ketiga faktor tersebut, dapat mempengaruhi kualitas hasil akhirnya. Apabila salah satu faktor tersebut berubah, maka faktor yang lainnya juga harus dirubah, berikut hubungan antar 3 faktor tersebut pada gambar 21. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gbr21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="5. Pola tumpang tindih (Overlapping) "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Overlapping adalah suatu teknik pengecatan pada permukaan benda  kerja, sehingga penyemprotan yang pertama dan berikutnya akan menyambung. Tujuannya adalah:  "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="a. Menghindarkan terjadinya tipis  "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+        android:text="b. Menghindarkan adanya perbedaan warna "
+        android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="c. Untuk mendapatkan ketebalan lapisan cat yang merata "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="d. Mencegah tidak adanya cat pada lapisan pertama dan berikutnya. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gbr22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Pada saat cat dikeluarkan oleh spraygun, maka semprotannya adalah seperti pada gambar 22 diatas dengan membentuk pola semprotan yang lebih tipis didekat tepi dari pada dibagian tengahnya. Oleh sebab itu, untuk mendapatkan lapisan yang merata, maka pola semprotan perlu memiliki ketebalan yang merata pula. Lebar tumpang tindih (overlapping) yang pas kira-kira adalah 1/2 sampai 2/3 pola semprotan perhatikan gambar 23 dibawah ini dan video penyetelan spraygun dan aplikasinya untuk melihat cara pengaplikasiannya pada panel. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+    <com.zolad.zoominimageview.ZoomInImageView
+
+            android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gbr23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Penting untuk menjaga keseimbangan yang baik dan membuat pola semprotan tumpang tindih yang konsisten. Tumpang tindih (overlap) yang tidak merata seperti pada gambar 24 dibawah ini, akan menghasilkan ketebalan lapisan yang tidak merata  pula, dan dapat menimbulkan cacat pada cat. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+     <com.zolad.zoominimageview.ZoomInImageView
+
+            android:layout_marginBottom="@dimen/_10sdp"
+         android:layout_gravity="center"
+         android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gbr24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Penyemprotan pada bidang perpotongan (misal fender, pintu, dsb) perlu diperhatikan pada waktu mulai menyemprot dan tidak boleh tepat pada garis perpotongan dan posisi spraygun harus benar-benar tegak lurus. Hal ini dimaksudkan untuk menghindari terjadinya tipis dan meleleh, perhatikan gambar 25 dibawah ini."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gbr25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

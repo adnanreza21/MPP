@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bluetext"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+
+            android:background="@color/birumud"
+            android:id="@+id/txt22"
+            android:textAlignment="center"
+            android:layout_below="@id/txt11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="Materi"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/white"/>
+
+
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_below="@id/txt22"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:id="@+id/card1"
+            app:cardElevation="@dimen/_16sdp"
+            app:cardCornerRadius="@dimen/_12sdp"
+            android:layout_margin="@dimen/_12sdp"
+            >
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/_12sdp">
+
+
+                <ImageView
+                    android:id="@+id/imgsan"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:src="@drawable/sander" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Materi Kompetensi Dasar 3.4"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_below="@id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:id="@+id/card2"
+            app:cardElevation="@dimen/_16sdp"
+            app:cardCornerRadius="@dimen/_12sdp"
+            android:layout_margin="@dimen/_12sdp"
+            >
+            <LinearLayout
+                android:id="@+id/lnn2"
+                android:orientation="vertical"
+                android:padding="@dimen/_12sdp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/imgspra"
+                    android:src="@drawable/spray"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp" />
+
+                <TextView
+                    android:id="@+id/txxt"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:text="Materi Kompetensi Dasar 3.6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>

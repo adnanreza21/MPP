@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Book34LimaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:id="@+id/txt11"
+            android:gravity="center"
+            android:background="@color/birumud"
+            android:text="Materi Kompetensi Dasar 3.4 "
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/grey"
+            android:gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:text="E. APLIKASI PERSIAPAN PERMUKAAN SETELAH DIBERI PRIMER DAN SURFACER"
+            android:textStyle="bold"
+            android:textSize="@dimen/_18sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="1. Memeriksa lubang dan goresan amplas "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Setelah mengering, periksa permukaan terhadap adanya lubang dan goresan amplasan, dan apabila ada, maka area tersebut harus  diaplikasi dengan touch-up putty. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="2. Aplikasi touch-up putty "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Ada dua tipe dempul (putty) yang tersedia untuk touch-up, yaitu tipe satu-komponen, dan tipe dua-komponen. Dempul tipe satu komponen biasanya digunakan untuk aplikasi touch-up putty, karena mudah penggunaannya. Dalam hal ini dijelaskan aplikasi touch-up putty dengan menggunakan dempul tipe satu komponen. Untuk langkah-langkah aplikasi nya agar lebih jelas perhatikan gambar-gambar penjelas dibawah ini. Ambil touch-up putty dan tempatkan pada mixing plate. Apabila menggunakan putty bari tube, dapat dipijitkan langsung pada ujung spatula, seperti pada gambar dibawah. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gmbr15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Aplikasikan touch-up putty untuk mengisi lubang dan goresan amplas. Dengan hati-hati, dorong putty kedalam lubang dan goresan amplas. Aplikasikan touch-up putty dengan lapisan tipis, karena apabila terlampau tebal akan lambat mengeringnya. Apabila terdapat banyak bagian yang perlu touch-up, aplikasikan putty pada seluruh area, agar tidak ada bagian yang terlewati aplikasikan seperti pada gambar 16 dibawah ini."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gmbr16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="3. Mengeringkan touch – up putty "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Keringkan permukaan kerja sesuai dengan instruksi pabrik pembuat touch-up putty. [Kira-kira 30 sampai 40 menit pada 20°C (68°F), 5 sampai 10 menit pada 68°C (140°F)] "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="4. Mengamplas surfacer (Sanding surfacer) "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Surfacer dapat diamplas kering atau basah. Pilihlah metode yang terbaik dengan melihat kelebihan dan kelemahan dari masing-masing metode. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="a. Pengamplasan kering (Dry-sanding) dengan tangan "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:src="@drawable/gmbr17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Tempelkan lembaran amplas grit # 600 pada hand block pemilihan grit ini disesaikan dengan jenis pengerjaan, sebagaiman lihat gambar 5 tentang pemilihan grit amplas disesuaikan dengan jenis pekerjaan. Setelah itu gosokkan pada surfacer. Oleh karena amplas dapat menjadi tersumbat dengan mudah, maka gunakanlah bagian yang masih baik dari amplas, atau gunakan sikat untuk melepas partikel amplasan pada amplasan. Untuk lebih jelas pengamplasan kering menggunakan handblock lihat pada gambar 17."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="b. Pengamplasan kering (Dry-sanding) dengan sander "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:src="@drawable/gmbr18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Pengamplasan menggunakan sander metodenya tidak berbeda menggunakan handblock secara manual, hanya saja pengerjaan pengamplasan lebih mudah dan cepat menggunakan sander dalam pengamplasannya seperti pada gambar 18 tempelkan lembaran amplas grit # 400 pada sander kerja ganda, pemilihan grit disesuaikan dengan jenis pekerjaan, sebagaimana terlihat pada gambar 5, setelah itu gosoklah surfacer menggunakan sander. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="c. Pengamplasan basah (Wet-sanding) dengan tangan "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:src="@drawable/gmbr19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Pada gambar 19 diatas basahilah area dengan sponge yang dibasahi air, sambil mengamplas surfacer menggunakan hand blok dengan amplas water proof grit #600, pemilihan grit disesuaikan dengan jenis pekerjaan, sebagaimana terlihat pada gambar 5. Setelah pengamplasan, kelembaban harus dikeringkan dengan sempurna. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="d. Pengamplasan-Basah (Wet-sanding) dengan sander "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:src="@drawable/gmbr20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Pengamplasan menggunakan sander metodenya tidak berbeda menggunakan handblock secara manual, hanya saja pengerjaan pengamplasan lebih mudah dan cepat menggunakan sander dalam pengamplasannya seperti pada gambar 20. Tempelkan lembaran amplas water proof grit #400 atau yang lebih tinggi pada wet sander, pemilihan grit disesuaikan dengan jenis pekerjaan, sebagaimana terlihat pada gambar 5. Setelah itu gosoklah surface. Apabila wet-sander tidak diberi air secara otomatis, basahilah area dengan sponge atau busa, sama dengan pada saat pengamplasan basah dengan tangan. Setelah pengamplasan, kelembaban harus dikeringkan dengan sempurna. Menyelesaikan seluruh proses wet-sanding dengan sander itu kurang praktis, oleh sebab itu, untuk yang terakhir, lakukanlah dengan tangan. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="5. Memeriksa Permukaan Amplasan "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gmbr21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Apabila permukaan telah rata dan tdak ada putty atau bare metal yang terlihat, maka proses pengamplasan permukaan telah selesai. Apabila lapisan akhir dioleskan melebihi permukaan yang telah diamplas khususnya pada titik dimana dempul atau metal dasarnya Nampak maka texture permukaan akan      terpengaruh oleh penyerapan cat. Hal ini juga dapat berkontribusi terhadap timbulnya karat. Apabila hal ini terjadi ulangi lagi pada proses touch-up putty menggunakan dempul satu komponen. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="6. Mengupas (Scuffing Top Coat)"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Langkah berikut setelah pengamplasan surfacer adalah aplikasi top coat. Akan  tetapi, sebagai persiapan untuk top coat, area harus dikupas (scuff). Scuffing adalah step yang sangat penting dalam aplikasi putty atau surfacer, karena tanpa ini, maka lapisan cat mudah mengelupas untuk lebih jelasnya area mana yang harus di scuffing lihat pada gambar 22 dibawah ini. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gmbr22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Amplaslah keseluruhan panel pada saat pengamplasan permukaan. Permukaan yang di cat memiliki suatu derajat tekstur kulit jeruk.  Pada saat amplas digunakan untuk meratakan permukaan kerja, maka kulit jeruk ini akan hilang. Hal ini disebabkan tidak akan didapatkan hasil akhir yang baik, apabila top coat diaplikasi tanpa menghilangkan kulit jeruk ini dari permukaan kerja. Scuffing harus dilakukan sampai kilap (gloss) nya hilang dari keseluruhan permukaan. Apabila masih ada area kilap yang tertinggal, maka pertanda permukaan belum terjamah amplas scuffing dan kulit jeruk belum hilang. Setelah pengamplasan surfacer, gunakan compound pada kain lap untuk scuff area kira-kira sekitar 300 mm (11,8 in) disekeliling area, dimana surfacer diaplikasi. Scuffing itu bukan untuk menghilangkan kulit jeruk, tetapi untuk membuang goresan tipis pada permukaan kerja. Oleh karena bagian yang gelap akan ditutup dengan lapisan cat yang tipis, maka hasil yang terbaik akan didapat, apabila kulit jeruk tidak tertinggal. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="7. Aplikasi body sealer"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Body sealer diaplikasi pada bagian lipatan (tekukan) hood dan pintu (door), serta apabila ada potongan lembar metal yang berbeda disambung, untuk menghindari masuknya air diantara panel-panel ini, sehingga dapat mencegah perkaratannya. Berikut contoh aplikasi dari body sealer pada gambar 23."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gmbr23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Untuk penggantian komponen yang tidak memiliki lapisan body sealer, kecuali procuring sealer yang diaplikasi pada pintu di beberapa jenis kendaraan. Oleh sebab itu, pada saat perbaikan kendaraan yang mengalami kecelakaan, body sealer harus diaplikasi pada panel penggantinya. Pada bagian panel sisi lain yang masih baik dapat dijadikan pedoman untuk melihat lokasi dimana body sealer ini diaplikasikan. Selain itu pengaplikasian body sealer bisa dilakukan sebelum dan sesudah pengecatan akhir, namun alangkah baiknya dilakukan sebelum melakukan pengecatan akhir karena apabila terdapat cacat pada proses pengaplikasian body sealer masih dapat diperbaiki tanpa merusak cat yang sudah diaplikasikan pada panel."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_4sdp"
+            android:src="@drawable/pustaka1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

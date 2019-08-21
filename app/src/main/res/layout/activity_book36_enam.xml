@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Book36LimaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:id="@+id/txt11"
+            android:gravity="center"
+            android:background="@color/birumud"
+            android:text="Materi Kompetensi Dasar 3.6 "
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/grey"
+            android:gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:text="F. PERAWATAN SPRAYGUN"
+            android:textStyle="bold"
+            android:textSize="@dimen/_18sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Spraygun harus selalu dibersihkan, setelah digunakan. Apabila spraygun tidak dibersihkan, maka cat akan menyumbat gun dan gun tidak dapat digunakan lagi. Selanjutnya, apabila Cara membersihkannya salah, dapat berakibat pada kerusakan, dan fungsi spraygun menjadi buruk serta bocornya cat. Metode perawatan dan pembersihan spraygun yang benar dijelaskan seperti pada video perawatan dan pembersihan spraygun, serta dijelaskan pada gambar berikut ini: "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Membersihkan spraygun tipe umpan-berat (Gravity-feed) "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:src="@drawable/gbr26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="1. Keluarkan cat yang masih tertinggal di dalam tabung cat (paint cup) kemudian tarik trigger untuk mengeluarkan cat yang tertinggal di dalam spraygun, perhatikan gambar 26."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="2. Tuangkan thinner ke dalam tabung cat kemudian semprotkan beberapa kali. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="3. Siapkan kain lap di depan air cap, dan tarik trigger untuk membilas spraygun dengan udara tekan dari kompresor, perhatikan gambar 27. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gbr27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="4. Bersihkan paint cap dengan sikat bulu "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:src="@drawable/gbr28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="5. Langkah 2, 3 dan 4 diulangi beberapa kali sampai thinner yang keluar dari spraygun menjadi bersih atau berwarna bening. Kemudian bersihkan spraygun dengan menggunakan sikat bulu. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gbr29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="6. Lepas air cap dan bersihkan fluid tip dengan menggunakan sikat bulu Membersihkan air cap dengan sikat bulu. Berhati - hatilah agar air cap tidak menjadi rusak pada saat dibersihkan, karena kondisi lubang udaranya sangat berpengaruh pada bentuk pola semprotan. Jangan menggunakan jarum, kawat atau sikat kawat untuk membersihkan.  "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gbr30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Apabila susah membersihkan cat yang kering, rendamlah air cap didalam lacquer thinner untuk melemahkan cat yang kering tersebut, dan kemudian bersihkan air cap. Menggunakan kain lap, keringkan thinner yang menempel, dan rakit kembali air cap. Tuangkan sedikit thinner yang bersih kedalam paint cup, sedikit thinner akan membantu mencegah saluran cat menjadi tersumbat."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:src="@drawable/pustaka2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Book36DuaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:id="@+id/txt11"
+            android:gravity="center"
+            android:background="@color/birumud"
+            android:text="Materi Kompetensi Dasar 3.6 "
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/grey"
+            android:gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:text="B. TIPE-TIPE SPRAYGUN"
+            android:textStyle="bold"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Berdasarkan bentuk dan cara penghisapan fluida, spray gun dapat dibagi menjadi tiga tipe, yaitu: tipe umpan-berat (gravity-feed), umpan-hisap (suction-feed), dan tipe kompresi (compression). Untuk lebih jelasnya dapat dilihat pada gambar-gambar dibawah ini. "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="1. Tipe umpan berat "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gbr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Dari gambar 2 diatas sparygun tipe ini tabung cat ditempatkan di atas Ujung Penyemprot (fluid tip) dari pistol penyemprot cat (air spray gun). Cat di supplay ke ujung penyemprot (fluid tip) oleh beratnya sendiri, sama baiknya dengan daya isap yang ditimbulkan dibagian ujung penyemprot. Keuntungan dari tipe ini adalah fluktuasi jumlah cat yang dikeluarkan oleh karena viskositasnya dapat dijaga pada tingkat minimum. Tetapi tipe ini tidak sesuai untuk operasi pengecatan yang terus menerus, pada area kerja yang luas karena kecilnya kapasitas tabung cat dan saat posisi mengecat tidak  tegak lurus, cat dari tabung penampung cenderung akan tumpah."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="2. Tipe umpan hisap "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gbr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Spraygun tipe ini dapat dilihat pada gambar 3 paint cup atau tabung cat dipasang pada bagian bawah dari ujung penyemprot (fluid tip). Cat di supply oleh daya hisap yang ditimbulkan dari ujung penyemprot. Tipe ini sesuai untuk pengecatan pada area yang luas karena kapasitas tabung catnya besar namun menjadikan spraygun lebih berat."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="3. Tipe Kompresi"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:src="@drawable/gbr4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Spraygun tipe ini dapat dilihat pada gambar 4 tangki cat bertekanan dan spray gun dibuat terpisah. Cat dikompresi dalam tangki cat oleh udara bertekanan atau pompa dan disupply ke spraygun. Tipe ini sesuai untuk pengecatan yang terus menerus pada area yang luas. Dapat digunakan dengan cat berviskositas tinggi."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

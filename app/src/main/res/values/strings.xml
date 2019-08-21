@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MPP</string>
+    <string name="title_activity_navi">NaviActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Tentang</string>
+    <string name="link1">
+        <a href="https://youtu.be/vWx13bKNiEM">Video Spray gun setup</a>
+
+    </string>
+    <string name="link2">
+        <a href="https://www.youtube.com/embed/DHlBYS-LCYg">Video Perawatan dan Pembersihan Spraygun</a>
+    </string>
+    <string name="link3">
+        <a href="https://youtu.be/1FReLGxC8EM">Video Spray Gun: Types, Components, Adjustment and Maintenance</a>
+    </string>
+    <string name="link4">
+        <a href="https://youtu.be/F38-UEPwh1Q">Video Penyetelan Spraygun dan Aplikasinya</a>
+    </string>
+    <string name="title_back">Back</string>
+    <string name="description_txt">Persiapan permukaan adalah suatu persyaratan umum yang harus dilakukan dalam pekerjaan pengecatan yang meliputi pemulihan suatu kerusakan atau pengantian panel sehingga menjadi pekerjaan dasar yang baik bagi pengecatan akhir. Tujuan utama dari persiapan permukaan adalah sebagai berikut:
+1.	Melindungi metal dasar untuk pencegahan timbulnya karat dan bintik – bintik.
+2.	Memperbaiki daya lekat (Adesi) untuk meratakan daya lekat (Adesi) antar lapisan
+3.	Memulihkan bentuk menjadi seperti bentuk aslinya, dengan mengisi bagian yang berkarat/korosi, penyok dan goresan
+4.	Merapatkan permukaan untuk pencegahan terhadap penyerapan material cat yang digunakan pada pengecatan akhir
+</string>
+    <string name="description_txt2">Mengecat mobil pada prinsipnya harus melibatkan orang yang profesional atau yang ahli dalam bidang pengecatan kendaraan baik mobil maupun motor. Untuk proses pengecetan sendiri terdiri dari beberapa tahap dan dibutuh masing-masing ahli disetiap tahapannya seperti bagian dempul oleh tukang dempul dan bagian pengecetan oleh tukang cat. Namun, jika seorang lebih profesional dapat hanya dilakukan oleh satu orang melakukan dua pekerjaan sekaligus.
+
+        Bagi seorang yang sudah profesional ataupun pemula akan selalu belajar bagaimana cara mengecat yang benar agar mendapatkan hasil yang maksimal dan pasti terlihat sempurna. Selain cara yang benar, hal lain yang harus diperhatikan dalam pengecetan yaitu kualitas dari cat itu sendiri. Cat yang bagus tentu saja akan menghasilkan tampilan yang menarik pada mobil anda.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="panel_rusak">1. Panel Rusak</string>
+</resources>

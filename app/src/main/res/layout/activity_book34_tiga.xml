@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Book34TigaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:id="@+id/txt11"
+            android:gravity="center"
+            android:background="@color/birumud"
+            android:text="Materi Kompetensi Dasar 3.4 "
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/grey"
+            android:gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:text="C. BAHAN – BAHAN YANG DIGUNAKAN UNTUK PERSIAPAN PERMUKAAN SETELAH PENGGUNAAN PRIMER DAN SURFACER"
+            android:textStyle="bold"
+            android:textSize="@dimen/_18sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="1. Dempul (Putty)"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Dempul (Putty) adalah lapisan dasar (under coat) yang digunakan untuk mengisi bagian yang penyok dalam dan besar atau cacat-cacat pada permukaan panel/bodi kendaraan Dempul juga dipergunakan dengan maksud untuk memberikan bentuk dari benda kerja apabila bentuk benda kerja sulit dilakukan. Setelah mengering dempul dapat diamplas untuk mendapatkan bentuk yang diinginkan. Dempul dapat digolongkan menjadi tiga macam menurut penggunaannya, yaitu :  "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="a. Polyester putty"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Jenis dempul ini adalah tipe dua komponen dan sering juga disebut dempul plastik. Dempul ini menggunakan organic peroxide sebagai hardener dan mengandung banyak pigment sehingga dapat membentuk lapisan yang tebal dan mudah diamplas. Dempul jenis ini menghasilkan tekstur yang keras setelah mengering. Biasanya dempul ini diulaskan dengan menggunakan kape dempul dan dipergunakan untuk menutup cacat yang parah atau agar memberi bentuk pada bidang dan mengisi cekungan yang dalam. Berikut contoh polyester putty."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:src="@drawable/gmbr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="b. Epoxy putty "
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Epoxy putty merupakan dempul tipe dua komponen, dempul ini mempunyai ketahanan yang baik terhadap karat dan mempunyai daya lekat yang baik terhadap berbagai material dasar. Bahan utama dempul ini adalah epoxy resin dan amine sebagai hardener. Oleh karena itu proses pengeringan dempul ini lama, dengan pemanasan paksa menggunakan oven pengering. Dempul ini dapat diulaskan dengan kape dempul. Dempul tipe ini sama dengan polyester putty hanya beda di bahan material dasar pembentukannya saja."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="c. Lacquer putty"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_65sdp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Dempul ini tipe satu komponen bahan utamanya terbuat dari Nitrocellulose dan acrylic resin. Lacquer Putty dapat diulaskan secara tipis-tipis mengginakan kape dempul untuk menutupi lubang kecil atau goresan-goresan pada komponen panel bodi. Lacquer putty banyak digunakan pada proses setelah pemberian primer dan surfacer. Berikut merupakan lacquer putty."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:src="@drawable/gmbr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="2. Sealer"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:gravity="start"
+            android:text="Bodi sealer yang digunakan dalam aplikasi persiapan permukaan setelah primer dan surfacer adalah body sealer type polyurethane dan tersedia dalam tiga warna dalam bentuk tabung (Cartridge) yaitu warna hitam, putih dan abu – abu. Berikut gambar dari sealer yang digunakan."
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_15sdp" />
+        <com.zolad.zoominimageview.ZoomInImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:src="@drawable/gmbr3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

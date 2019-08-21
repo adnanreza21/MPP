@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#33E020</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#0092cc</color>
+    <color name="red">#D81B60</color>
+    <color name="Primary">#3F51B5</color>
+    <color name="PrimaryDark">#282F65</color>
+    <color name="Accent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="bluetext">#0092cc</color>
+    <color name="colortop">#e74c3c</color>
+    <color name="black">#000000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="birurua">#2574A9</color>
+    <color name="birutua">#035A81</color>
+    <color name="birumud">#19B5FE</color>
+    <color name="hijau">#66f9b0</color>
+    <color name="grey">#333834</color>
+</resources>

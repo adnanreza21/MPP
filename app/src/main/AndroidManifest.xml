@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.good.mpp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.good.mpp.Book36EnamActivity"></activity>
+        <activity android:name="com.good.mpp.Book36LimaActivity" />
+        <activity android:name="com.good.mpp.Book36EmpatActivity" />
+        <activity android:name="com.good.mpp.Book36TigaActivity" />
+        <activity android:name="com.good.mpp.Book36DuaActivity" />
+        <activity android:name="com.good.mpp.Book36SatuActivity" />
+        <activity android:name="com.good.mpp.Book34LimaActivity" />
+        <activity android:name="com.good.mpp.Book34EmpatActivity" />
+        <activity android:name="com.good.mpp.Book34TigaActivity" />
+        <activity android:name="com.good.mpp.Book34DuaActivity" />
+        <activity android:name="com.good.mpp.Book34SatuActivity" />
+        <activity android:name="com.good.mpp.HomeBook36Activity">
+            <intent-filter>
+                <action android:name=".HomeBook36Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.good.mpp.HomeBook34Activity">
+            <intent-filter>
+                <action android:name=".HomeBook34Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.good.mpp.ResultActivity" />
+        <activity android:name="com.good.mpp.Main4Activity">
+            <intent-filter>
+                <action android:name=".Main4Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.good.mpp.Main3Activity">
+            <intent-filter>
+                <action android:name=".Main3Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.good.mpp.CategorySelection" />
+        <activity android:name="com.good.mpp.Video2Activity">
+            <intent-filter>
+                <action android:name=".Video2Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.good.mpp.VersionActivity">
+            <intent-filter>
+                <action android:name=".VersionActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.good.mpp.ProfileActivity">
+            <intent-filter>
+                <action android:name=".ProfileActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.good.mpp.Main2Activity">
+            <intent-filter>
+                <action android:name=".Main2Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.good.mpp.QuizActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name=".QuizActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.good.mpp.VideoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name=".VideoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.good.mpp.BookActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name=".BookActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.good.mpp.WelcomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name=".WelcomeActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.good.mpp.HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name=".HomeActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.good.mpp.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.good.mpp.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name=".MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

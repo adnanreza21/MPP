@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bluetext"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_marginRight="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_150sdp"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:id="@+id/txt1"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:text="MEDIA PEMBELAJARAN PENGECATAN"
+        android:textSize="@dimen/_28sdp"/>
+
+    <Button
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:id="@+id/button"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:layout_below="@id/txt1"
+        android:textSize="@dimen/_20sdp"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/bluetext"
+        android:text="MULAI"
+        android:layout_marginBottom="@dimen/_50sdp"
+        />
+</RelativeLayout>
+</ScrollView>
